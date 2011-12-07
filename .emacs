@@ -1,3 +1,7 @@
+(setq c-basic-offset 4)
+(setq tab-width 4)
+(setq intent-tabs-mode nil)
+(turn-on-font-lock)
 (set-terminal-coding-system 'utf-8)
 (set-keyboard-coding-system 'utf-8)
 (prefer-coding-system 'utf-8)
