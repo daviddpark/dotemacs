@@ -6,10 +6,10 @@
 (set-keyboard-coding-system 'utf-8)
 (prefer-coding-system 'utf-8)
 
-(add-to-list 'load-path "~/.emacs.d/site-lisp/color-theme-6.6.0/")
+;;(add-to-list 'load-path "~/.emacs.d/site-lisp/")
 
-(require 'color-theme)
-(eval-after-load "color-theme"
-  '(progn
-     (color-theme-initialize)
-     (color-theme-matrix)))
+(require 'package)
+
+(add-to-list 'package-archives '("marmalade" . "http://marmalade-repo.org/packages/") t)
+(package-initialize)
+
