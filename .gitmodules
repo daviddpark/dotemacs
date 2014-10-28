@@ -1,6 +1,0 @@
-[submodule "slime"]
-	path = slime
-	url = https://github.com/technomancy/slime.git
-[submodule "clojure-mode"]
-	path = clojure-mode
-	url = https://github.com/technomancy/clojure-mode.git

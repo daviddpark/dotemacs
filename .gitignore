@@ -1,2 +1,5 @@
 *.*~
 *.elc
+.emacs.d/places
+.emacs.d/smex-items
+.emacs.d/elpa
